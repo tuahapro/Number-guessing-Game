@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #8697c3;
+    justify-content:center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+   
+}
+.playerOne{
+    width: 500px;
+    height: 300px;
+    background-color: #adbada;
+    border-radius: 5px; 
+    
+}
+.heading{
+    text-align: center;
+    padding: 30px 0px;
+}
+.inputOne{
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    padding: 5px 8px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.btn_1{
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+    outline: none;
+    border: 2px solid #c7d1eb81;
+    border-radius: 3px;
+    padding: 5px 4px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 30px;
+
+}
+.erorrMg{
+   text-align: center;
+    margin-top: 4px;
+   font-size: 15px;
+   color: red;
+}
+.erorrMg1{
+    text-align: center;
+    margin-top: 4px;
+   font-size: 15px;
+   color: red;
+}
+.playerTwo{
+    display: none;
+}
+
+
+
+/*========= player Two ==== */
+
+.playerTwo{
+    width: 500px;
+    height: 300px;
+    background-color: #adbada;
+    border-radius: 5px;    
+}
+.PR_Two{
+    text-align: center;
+    padding-top: 30px;
+   
+}
+.PR_chance{
+    text-align: center;
+    padding: 10px 0px;
+   
+}
+.inputTwo{
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.btn_2{
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+    outline: none;
+    border: 2px solid #c7d1eb81;
+    border-radius: 3px;
+    padding: 5px 4px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 30px;
+
+}
